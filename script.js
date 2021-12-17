@@ -49,7 +49,7 @@ function cal(){
 
  else{
      // check the DOB year is less 
-   if(dob_year=="2021") {
+   if(dob_year==today_year) {
           alert2_box.classList.add("hide-alert-box"); 
           setInterval(function(){
                alert2_box.classList.remove("hide-alert-box");   
