@@ -100,3 +100,112 @@ button{
 .hide-alert-box{
     left: 77%;
 }
+
+/* ------------ Make Responsive ----------- */
+@media only screen and (max-width:768px){
+    .wrapper{
+        min-width: 89%;
+    }
+    button{
+        font-size: 14px;
+        width: 33%;
+    }
+    .show-box {
+        height: 21vh;
+    }
+    .date{
+        font-size: 12px;
+    }
+    .show-box>div h2 {
+        font-size: 19px;
+    }
+    .show-box >div h3 {
+        font-size: 1.5rem;
+    }
+    .alert-box, .alert2-box {
+        height: 5%;
+        width: 41%;
+        font-size: 12px;
+    }
+    .hide-alert-box{
+        left: 60%;
+    }
+}
+@media  only screen and (max-width:425px){
+    .dob{
+        margin-top: -14px;
+    }
+    .date input {
+        margin: 12px;
+        width: 55%;
+        padding-left: 0;
+        font-size: 12px;
+    }
+    .current-box{
+        height: 11vh;
+        font-size: 11px;
+    }
+    .current-box p {
+        padding: 0px 2rem 6px 0rem;
+    }
+    .show-box {
+        height: 22vh;
+    }
+    .show-box >div {
+        width: 32%;
+        height: 19vh;
+    }
+    button {
+        font-size: 12px;
+        width: 50%;
+    }
+    .alert-box, .alert2-box {
+        height: 6%;
+        width: 73%;
+        font-size: 10px;
+        padding: 1rem 1px 12px 11px;
+    }
+    .hide-alert-box{
+        left: 30%;
+    }
+}
+@media only screen and (max-width:375px){
+    .wrapper{
+            min-width: 98%;
+            height: 45vh;
+    }
+    .dob {
+        margin-top:0;
+    }
+    .current-box{
+        height: 11vh;
+        font-size: 9px;
+        width: 58%;
+        margin-top: 3rem;
+    }
+    .current-box p{
+        padding: 0px 0rem 0px 0rem;
+    }
+    .show-box {
+        height: 18vh;
+    }
+    .show-box >div {
+        height: 17vh;
+    }
+}
+@media only screen and (max-width:320px){
+    .date {
+        font-size: 10px;
+    }
+    .date input {
+        width: 76%;
+    }
+    .current-box{
+        font-size: 6px;
+    }
+    .date, .show-box {
+        width: 100%;
+        flex-direction: row;
+        height: 11vh;
+    }
+}
