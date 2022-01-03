@@ -21,7 +21,7 @@ current_date.innerHTML+=` ${today_date}-${today_month+1}-${today_year}`;
 
 //GET calculated Btn
 
-let btn_cal=document.querySelector("button");
+let btn_cal  = document.querySelector("button");
 btn_cal.addEventListener("click",cal);
 
 function cal(){
