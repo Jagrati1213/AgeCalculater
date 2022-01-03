@@ -39,21 +39,14 @@ function cal(){
 
      //whether input is empty
  if (document.querySelector("input").value ==""||document.querySelector("input").value==null) {
-
-     alert_box.classList.add("hide-alert-box"); 
-     setInterval(function(){
-          alert_box.classList.remove("hide-alert-box");   
-     },2000);
+      alert("ENTER THE DOB...")
 
     } 
 
  else{
      // check the DOB year is less 
    if(dob_year==today_year) {
-          alert2_box.classList.add("hide-alert-box"); 
-          setInterval(function(){
-               alert2_box.classList.remove("hide-alert-box");   
-          },2000); 
+      alert("NOT BORN YET")
      }  
 
    else{
