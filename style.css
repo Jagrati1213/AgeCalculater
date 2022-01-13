@@ -111,23 +111,16 @@ button{
 @media  only screen and (max-width:425px){
     .wrapper {
         min-width: 100%;
-        left: 55%;
+        /* left: 55%; */
     }
-    .dob{
+    /* .dob{
         margin-top: -14px;
-    }
+    } */
     .date input {
         margin: 12px;
         width: 55%;
         padding-left: 0;
         font-size: 12px;
-    }
-    .current-box{
-        height: 11vh;
-        font-size: 11px;
-    }
-    .current-box p {
-        padding: 0px 2rem 6px 0rem;
     }
     .show-box {
         height: 22vh;
@@ -146,18 +139,13 @@ button{
         min-width: 96%;
         height: 53vh;
     }
-    .dob {
+    /* .dob {
         margin-top:0;
-    }
-    .current-box{
-        height: 11vh;
-        font-size: 9px;
-        width: 58%;
-        margin-top: 3rem;
-    }
-    .current-box p{
-        padding: 0px 0rem 0px 0rem;
-    }
+    } */
+    .date{
+      flex-wrap: wrap;
+      justify-content: center;
+   }
     .show-box {
         height: 18vh;
     }
@@ -172,17 +160,9 @@ button{
     .date input {
         width: 76%;
     }
-    .current-box{
-        font-size: 6px;
-    }
     .date, .show-box {
         width: 100%;
         flex-direction: row;
         height: 11vh;
-    }
-    .current-box {
-        font-size: 10px;
-        margin-top: 0;
-        width: 50%;
     }
 }

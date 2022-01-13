@@ -8,16 +8,9 @@ let today_year  = today.getFullYear();
 let today_date  = today.getDate();
 
 //GET Elements
-let current_date = document.querySelector(".current_date");
-let DOB          = document.querySelector(".dob_date");
 let year_msg     = document.querySelector(".show-box .year h3");
 let month_msg    = document.querySelector(".show-box .month h3");
 let day_msg      = document.querySelector(".show-box .day h3");
-let alert_box    = document.querySelector(".alert-box");
-let alert2_box   = document.querySelector(".alert2-box");
-
-//print CURRENT DATE
-current_date.innerHTML+=` ${today_date}-${today_month+1}-${today_year}`;
 
 //GET calculated Btn
 
@@ -50,7 +43,6 @@ function cal(){
      }  
 
    else{
-     DOB.innerHTML+=`${dob_date}-${dob_month+1}-${dob_year}`; 
 
       if (today_date<dob_date){
          
