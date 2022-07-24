@@ -4,11 +4,10 @@ it is calculate your present living days and months.
 - HTML
 - CSS
 - Javascript\
-\
 ### frameWork ###
--Bootstrap
--Md Bootstap\
+- Bootstrap
+- Md Bootstap\
 ### Font Awesome ###
--Font Awesome\
-\
+- Font Awesome\
+
 *In this project i got more knowledge about the events and input properties* 
