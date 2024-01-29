@@ -28,5 +28,8 @@ Age Calculator JS is a simple web application built using HTML, CSS, and JavaScr
 1. Open the application in your web browser.
 2. Enter your birthdate in the provided input field.
 3. The age will be calculated and displayed in real-time.
-4. 
+
+## Project ScreenShot:
+![image](https://github.com/Jagrati1213/AgeCalculater/assets/85276293/7f624e62-1dfd-4d6a-b658-433946f4e8a0)
+
 Happy coding! 🚀
